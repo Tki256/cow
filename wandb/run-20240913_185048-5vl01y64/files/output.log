@@ -1,0 +1,11 @@
+/home/afs/anaconda3/envs/base-lab/lib/python3.11/site-packages/keras/src/layers/rnn/rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+Traceback (most recent call last):
+  File "/home/afs/cow/LSTM.py", line 101, in <module>
+    WandbModelCheckpoint("models")])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/afs/anaconda3/envs/base-lab/lib/python3.11/site-packages/wandb/integration/keras/callbacks/model_checkpoint.py", line 90, in __init__
+    super().__init__(
+  File "/home/afs/anaconda3/envs/base-lab/lib/python3.11/site-packages/keras/src/callbacks/model_checkpoint.py", line 191, in __init__
+    raise ValueError(
+ValueError: The filepath provided must end in `.keras` (Keras model format). Received: filepath=models

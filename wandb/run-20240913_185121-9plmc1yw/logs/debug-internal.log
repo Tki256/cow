@@ -1,0 +1,23 @@
+{"time":"2024-09-13T18:51:21.515693386+09:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-13T18:51:21.515703513+09:00","level":"INFO","msg":"created symlink","path":"/home/afs/cow/wandb/run-20240913_185121-9plmc1yw/logs/debug-core.log"}
+{"time":"2024-09-13T18:51:21.515731852+09:00","level":"INFO","msg":"using version","core version":"0.18.0"}
+{"time":"2024-09-13T18:51:21.515734994+09:00","level":"INFO","msg":"created symlink","path":"/home/afs/cow/wandb/run-20240913_185121-9plmc1yw/logs/debug-core.log"}
+{"time":"2024-09-13T18:51:21.5162986+09:00","level":"INFO","msg":"created new stream","id":"9plmc1yw"}
+{"time":"2024-09-13T18:51:21.516309578+09:00","level":"INFO","msg":"stream: started","id":"9plmc1yw"}
+{"time":"2024-09-13T18:51:21.516322845+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"9plmc1yw"}}
+{"time":"2024-09-13T18:51:21.516363567+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"9plmc1yw"}}
+{"time":"2024-09-13T18:51:21.516398902+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"9plmc1yw"}}
+{"time":"2024-09-13T18:51:21.91328427+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-13T18:51:21.914452504+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-13T23:07:26.597936334+09:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2024-09-14T02:42:51.75522625+09:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/mie-univ/cow_HeartRate_and_Breath/9plmc1yw/file_stream"}
+{"time":"2024-09-14T22:11:58.711333593+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-14T22:11:58.712717722+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-14T22:11:58.941868929+09:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-09-14T22:11:58.941938964+09:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-09-14T22:11:58.942028332+09:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-09-14T22:12:01.737858042+09:00","level":"INFO","msg":"stream: closing","id":"9plmc1yw"}
+{"time":"2024-09-14T22:12:01.737893963+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"9plmc1yw"}}
+{"time":"2024-09-14T22:12:01.737905595+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"9plmc1yw"}}
+{"time":"2024-09-14T22:12:01.737922269+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"9plmc1yw"}}
+{"time":"2024-09-14T22:12:01.737941761+09:00","level":"INFO","msg":"stream: closed","id":"9plmc1yw"}
