@@ -8,6 +8,19 @@ from keras import layers
 from keras.optimizers import RMSprop
 from wandb.integration.keras import WandbMetricsLogger, WandbModelCheckpoint
 
+import argparse
+parser = argparse.ArgumentParser()    # 2. パーサを作る
+
+# --- ハイパーパラメータの指定 ---
+parser.add_argument("--lookback", type=int, default=500)   
+parser.add_argument("--pred_length", type=int, default=50)   
+parser.add_argument("--step", type=int, default=1)   
+parser.add_argument("--delay", type=int, default=1)   
+parser.add_argument("--batch_size", type=int, default=200)
+   
+# ------------------------
+
+
 def generator(data, lookback, delay, pred_length, min_index, max_index, shuffle=False,
               batch_size=100, step=1):
     if max_index is None:
